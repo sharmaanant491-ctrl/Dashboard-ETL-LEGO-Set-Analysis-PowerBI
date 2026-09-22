@@ -22,7 +22,7 @@ The project combines ETL, data transformation, DAX, data modeling, visualization
 
 ---
 
-## ❓ Problem Statement
+##  Problem Statement
 
 LEGO has a large number of sets covering different themes, categories, age ranges, prices, and piece counts. With many options available, users may find it difficult to narrow down the sets that match their preferences.
 
@@ -30,7 +30,7 @@ The objective of this project is to transform the raw LEGO dataset into an inter
 
 ---
 
-## 🗃️ Dataset
+##  Dataset
 
 ### Source
 
@@ -69,7 +69,7 @@ The dataset was prepared before analysis by:
 
 ---
 
-## 🛠️ Tools and Technologies
+##  Tools and Technologies
 
 ### Core Tool
 
@@ -103,7 +103,7 @@ The dataset was prepared before analysis by:
 
 ---
 
-## ⚙️ Methods
+##  Methods
 
 ### 1. Data Loading and ETL
 
@@ -260,4 +260,81 @@ Download or clone this repository to your local system.
 Go to the:
 
 ```text
-Dashboard/
+
+### Step 3 — Verify the Dataset Path
+
+The source dataset is available in:
+
+```text
+Dataset/
+```
+
+If Power BI asks for the source file location, select the dataset stored in this folder.
+
+### Step 4 — Refresh the Data
+
+Refresh the dataset in Power BI if required.
+
+### Step 5 — Explore the Dashboard
+
+Use the report pages, slicers, filters, buttons, tooltips, and other interactive features to explore the LEGO sets.
+
+---
+
+##  Results & Conclusion
+
+The project transforms raw LEGO set data into an interactive Power BI dashboard focused on user exploration and decision-making.
+
+The dashboard allows users to:
+
+- Explore a large collection of LEGO sets
+- Filter sets according to different preferences
+- Compare important set characteristics
+- View detailed information about selected sets
+- Explore LEGO set distributions through a Decomposition Tree
+- Navigate between different report views using interactive controls
+
+The project demonstrates an end-to-end Power BI workflow covering **ETL, data preparation, data transformation, DAX, data modeling, visualization, and interactive dashboard development**.
+
+---
+
+## 🚀 Future Work
+
+Possible future improvements include:
+
+- Adding a recommendation or scoring system based on user preferences
+- Adding more user preference criteria
+- Including LEGO set ratings or popularity data
+- Adding newer LEGO releases as the dataset is updated
+- Creating a more advanced recommendation experience based on multiple user inputs
+- Developing additional analytical pages for deeper LEGO trend analysis
+
+---
+
+## 👤 Author & Contact
+
+**Anant Sharma**
+
+Aspiring Data Analyst | Power BI | Data Analytics
+
+GitHub: [@sharmaanant491-ctrl](https://github.com/sharmaanant491-ctrl)
+
+For project-related questions or feedback, please use GitHub.
+
+---
+
+## 📚 Sources
+
+### Dataset
+
+**Maven Analytics — LEGO Set Explorer**
+
+[LEGO Set Explorer](https://mavenanalytics.io/guided-projects/lego-set-explorer)
+
+### Design Assets
+
+Some LEGO-themed visual assets used in the dashboard, including decorative elements, buttons, and background/design components, were sourced from:
+
+**Magnific — LEGO Brick Design Vectors**
+
+[LEGO Brick Design Vectors](https://www.magnific.com/vectors/lego-brick-design)
