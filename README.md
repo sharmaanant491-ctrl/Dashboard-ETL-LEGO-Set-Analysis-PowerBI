@@ -8,9 +8,13 @@
 
 **LEGO Set Explorer — Dashboard Demo**
 
-[INSERT / UPLOAD PROJECT DEMO VIDEO HERE]
 
----
+
+https://github.com/user-attachments/assets/bd914e9f-deab-478d-8bec-8f37154f2a2d
+
+
+
+
 
 ## 📖 Overview
 
