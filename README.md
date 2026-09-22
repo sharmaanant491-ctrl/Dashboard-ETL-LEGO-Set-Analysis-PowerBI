@@ -1,4 +1,4 @@
-# LEGO Set Explorer
+<img width="1419" height="798" alt="Screenshot 2026-09-22 232939" src="https://github.com/user-attachments/assets/2b6e76ea-50f6-40de-bfd0-a9fdd0f621e1" /># LEGO Set Explorer
 
 > An interactive Power BI dashboard that helps users explore, filter, compare, and discover LEGO sets based on price, age, theme, pieces, and other characteristics.
 
@@ -227,7 +227,7 @@ This makes it easier to explore how the LEGO collection is structured across dif
 
 The main dashboard provides the primary user interface for LEGO set exploration.
 
-**INSERT MAIN DASHBOARD IMAGE HERE**
+<img width="1419" height="798" alt="Screenshot 2026-09-22 232939" src="https://github.com/user-attachments/assets/7f1ff3fc-2798-4e21-84e5-6d991cb01bc9" />
 
 ---
 
