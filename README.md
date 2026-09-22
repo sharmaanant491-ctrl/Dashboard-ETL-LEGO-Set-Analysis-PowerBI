@@ -1,2 +1,263 @@
-# Dashboard-ETL-LEGO-Set-Analysis-PowerBI
-Interactive Power BI dashboard for exploring, comparing, and finding LEGO sets based on price, age, theme, pieces, and other characteristics.
+# LEGO Set Explorer
+
+> An interactive Power BI dashboard that helps users explore, filter, compare, and discover LEGO sets based on price, age, theme, pieces, and other characteristics.
+
+---
+
+## 🎥 Project Demo
+
+**LEGO Set Explorer — Dashboard Demo**
+
+[INSERT / UPLOAD PROJECT DEMO VIDEO HERE]
+
+---
+
+## 📖 Overview
+
+LEGO Set Explorer is an interactive Power BI dashboard designed to help users explore LEGO sets and narrow down their choices based on their preferences.
+
+The dashboard allows users to filter and compare LEGO sets using factors such as theme group, theme, recommended age range, and price. Users can also explore detailed information about individual sets, including their price, release year, number of pieces, recommended age, and image.
+
+The project combines ETL, data transformation, DAX, data modeling, visualization, and Power BI interactive features to convert raw LEGO set data into a user-focused exploration tool.
+
+---
+
+## ❓ Problem Statement
+
+LEGO has a large number of sets covering different themes, categories, age ranges, prices, and piece counts. With many options available, users may find it difficult to narrow down the sets that match their preferences.
+
+The objective of this project is to transform the raw LEGO dataset into an interactive analytical dashboard that allows users to quickly filter, explore, compare, and inspect LEGO sets before deciding which sets they may prefer.
+
+---
+
+## 🗃️ Dataset
+
+### Source
+
+**Maven Analytics — LEGO Set Explorer**
+
+The dataset contains LEGO sets released between **1970 and 2022**.
+
+It is a single-table dataset containing **18,459 records and 14 fields**.
+
+### Key Fields
+
+- `set_id` — LEGO set identifier
+- `name` — Name of the LEGO set
+- `year` — Release year
+- `theme` — LEGO theme
+- `subtheme` — Subtheme
+- `themeGroup` — Theme group
+- `category` — Set category
+- `pieces` — Number of pieces
+- `minifigs` — Number of minifigures
+- `agerange_min` — Minimum recommended age
+- `US_retailPrice` — US retail price
+- `bricksetURL` — Brickset reference URL
+- `thumbnailURL` — Thumbnail image URL
+- `imageURL` — Full-size image URL
+
+### Data Preparation
+
+The dataset was prepared before analysis by:
+
+- Removing unnecessary fields
+- Reviewing and correcting data types
+- Filtering records with missing price, age, pieces, or image information
+- Creating new analytical categories
+- Preparing the dataset for interactive filtering and visualization
+
+---
+
+## 🛠️ Tools and Technologies
+
+### Core Tool
+
+- **Microsoft Power BI**
+
+### Power BI Features and Techniques
+
+- Power Query
+- DAX
+- ETL
+- Data Cleaning
+- Data Transformation
+- Data Profiling
+- Data Modeling
+- Data Visualization
+- Dashboard Development
+- Calculated Columns
+- Conditional Columns
+- Measures
+- Parameters
+- Slicers
+- Filters
+- Tooltips
+- Bookmarks
+- Buttons
+- Button States
+- Page Navigation
+- Visual Interactions
+- Conditional Formatting
+- Decomposition Tree
+
+---
+
+## ⚙️ Methods
+
+### 1. Data Loading and ETL
+
+The raw LEGO dataset was imported into Power BI and prepared using Power Query.
+
+The ETL process included:
+
+- Loading the LEGO Sets CSV file
+- Reviewing the dataset structure
+- Correcting data types
+- Removing unnecessary columns
+- Handling missing values
+- Preparing the dataset for analysis
+
+### 2. Feature Engineering
+
+Two conditional columns were created to make the dataset easier to analyze.
+
+#### Age Range
+
+| Minimum Age | Age Range |
+|---|---|
+| 18+ | Over 18 |
+| 10–17 | 10 to 17 |
+| 5–9 | 5 to 9 |
+| 1–4 | 1 to 4 |
+
+#### Price Range
+
+| Price | Price Range |
+|---|---|
+| > $500 | $$$$$ |
+| > $100 | $$$$ |
+| > $50 | $$$ |
+| > $25 | $$ |
+| ≤ $25 | $ |
+
+### 3. DAX Measures
+
+DAX measures were created for the main analytical metrics:
+
+- Total Sets
+- Total Groups
+- Average Age
+- Average Price
+- Average Pieces
+
+These measures respond dynamically to user selections and filters.
+
+### 4. Dashboard Design
+
+The report was designed around the goal of allowing users to discover and compare LEGO sets.
+
+The main dashboard includes:
+
+- KPI cards
+- Slicers
+- Filters
+- Set comparison table
+- Set detail section
+- LEGO set images
+- Price range information
+- Interactive controls
+
+### 5. Interactive Analysis
+
+Several Power BI features were implemented to make the dashboard interactive:
+
+- Theme Group filtering
+- Theme filtering
+- Age Range filtering
+- Maximum Price parameter
+- Image tooltips
+- Bookmark-based filter reset
+- Button actions
+- Page navigation
+- Visual interaction controls
+
+### 6. Decomposition Tree Analysis
+
+A separate report page was created using the **Decomposition Tree** visual.
+
+Users can explore the number of LEGO sets through the hierarchy:
+
+**Category → Theme Group → Theme → Name**
+
+This provides a drill-down view of the structure and distribution of LEGO sets.
+
+---
+
+## 🔍 Key Insights
+
+The dashboard enables users to explore LEGO sets through multiple dimensions rather than relying on a single metric.
+
+### User Exploration
+
+Users can:
+
+- Narrow down LEGO sets according to their preferred theme group and theme.
+- Filter sets according to recommended age range.
+- Set a maximum price based on their budget.
+- Compare available sets using pieces, price, age, and other characteristics.
+- Inspect detailed information for an individual LEGO set.
+- View the corresponding LEGO set image through interactive tooltips.
+
+### Hierarchical Exploration
+
+The Decomposition Tree allows users to move from broader LEGO categories into specific theme groups, themes, and individual set names.
+
+This makes it easier to explore how the LEGO collection is structured across different levels.
+
+---
+
+## 📊 Dashboard / Model / Output
+
+### Main Dashboard
+
+The main dashboard provides the primary user interface for LEGO set exploration.
+
+**INSERT MAIN DASHBOARD IMAGE HERE**
+
+---
+
+### LEGO Set Details
+
+The dashboard includes a dedicated area for viewing information about a selected LEGO set.
+
+**INSERT SET DETAILS IMAGE HERE**
+
+---
+
+### Decomposition Tree
+
+The second report page provides hierarchical analysis using the Decomposition Tree.
+
+**INSERT DECOMPOSITION TREE IMAGE HERE**
+
+---
+
+### Dashboard Preview
+
+**INSERT ADDITIONAL DASHBOARD SCREENSHOTS HERE**
+
+---
+
+## ▶️ How to Run This Project?
+
+### Step 1 — Download the Repository
+
+Download or clone this repository to your local system.
+
+### Step 2 — Open the Power BI File
+
+Go to the:
+
+```text
+Dashboard/
