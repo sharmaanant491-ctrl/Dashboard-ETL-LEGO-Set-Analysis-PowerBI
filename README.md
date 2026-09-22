@@ -259,15 +259,12 @@ Download or clone this repository to your local system.
 
 Go to the:
 
-```text
+
 
 ### Step 3 — Verify the Dataset Path
 
 The source dataset is available in:
 
-```text
-Dataset/
-```
 
 If Power BI asks for the source file location, select the dataset stored in this folder.
 
