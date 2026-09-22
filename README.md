@@ -315,7 +315,7 @@ Possible future improvements include:
 Aspiring Data Analyst | Power BI | Data Analytics
 
 GitHub: [@sharmaanant491-ctrl](https://github.com/sharmaanant491-ctrl)
-
+Mail: sharmaanant491@gmail.com
 For project-related questions or feedback, please use GitHub.
 
 ---
