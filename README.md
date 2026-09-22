@@ -221,7 +221,7 @@ This makes it easier to explore how the LEGO collection is structured across dif
 
 ---
 
-## 📊 Dashboard / Model / Output
+## 📊 Dashboard Output
 
 ### Main Dashboard
 
