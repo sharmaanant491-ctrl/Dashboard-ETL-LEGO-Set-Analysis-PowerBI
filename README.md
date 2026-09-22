@@ -235,21 +235,15 @@ The main dashboard provides the primary user interface for LEGO set exploration.
 
 The dashboard includes a dedicated area for viewing information about a selected LEGO set.
 
-**INSERT SET DETAILS IMAGE HERE**
-
+<img width="524" height="522" alt="Screenshot 2026-09-22 233212" src="https://github.com/user-attachments/assets/30e4194f-55fe-48bc-baf3-25aa63a64901" />
 ---
 
 ### Decomposition Tree
 
 The second report page provides hierarchical analysis using the Decomposition Tree.
 
-**INSERT DECOMPOSITION TREE IMAGE HERE**
-
+<img width="770" height="569" alt="Screenshot 2026-09-22 233343" src="https://github.com/user-attachments/assets/dffc0276-4d43-490b-a446-24afcfc392bb" />
 ---
-
-### Dashboard Preview
-
-**INSERT ADDITIONAL DASHBOARD SCREENSHOTS HERE**
 
 ---
 
