@@ -1,4 +1,4 @@
-#LEGO Set Explorer
+# LEGO Set Explorer
 
 > An interactive Power BI dashboard that helps users explore, filter, compare, and discover LEGO sets based on price, age, theme, pieces, and other characteristics.
 
